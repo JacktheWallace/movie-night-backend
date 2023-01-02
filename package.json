@@ -1,0 +1,11 @@
+{
+  "name": "movie-night-backend",
+  "version": "1.0.0",
+  "description": "backend for the movie night project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
