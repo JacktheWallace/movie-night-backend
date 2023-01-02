@@ -4,7 +4,8 @@
   "description": "backend for the movie night project",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon -r dotenv/config index.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,12 @@
   },
   "homepage": "https://github.com/JacktheWallace/movie-night-backend#readme",
   "devDependencies": {
-    "eslint": "^8.31.0"
+    "dotenv": "^16.0.3",
+    "eslint": "^8.31.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
   }
 }
