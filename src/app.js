@@ -5,6 +5,7 @@ const usersControllers = require("../controllers/user-controllers.js")
 
 
 app.post('/users', usersControllers.createUser)
+app.get('/users', usersControllers.confirmUserSignIn)
 
 
 module.exports = app;

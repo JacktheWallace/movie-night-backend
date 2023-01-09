@@ -21,6 +21,7 @@ const setUpDatabase = async () => {
     await db.query(`CREATE TABLE IF NOT EXISTS users(
       userEmail VARCHAR(100) NOT NULL,
       userName VARCHAR(100) NOT NULL,
+      userPassword VARCHAR(100) NOT NULL,
       userID INT PRIMARY KEY AUTO_INCREMENT)`);
 
     await db.query(`CREATE TABLE IF NOT EXISTS movieSuggestions(
